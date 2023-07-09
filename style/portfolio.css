@@ -104,3 +104,13 @@ main{
     text-align: center;
     margin-top: 15px;
 }
+.section-des-what{
+    width: 72%;
+    text-align: center;
+    margin: auto;
+    margin-top: -20px;
+}
+.skills-container{
+    display: flex;
+    margin-top: 30px;
+}
