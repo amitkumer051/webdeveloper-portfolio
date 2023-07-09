@@ -134,10 +134,11 @@ main{
 .summary-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .sub-heading{
     color: #474747;
-font-size: 30px;
+    font-size: 30px;
 }
 .my-h3{
     color: #474747;
@@ -154,4 +155,8 @@ font-size: 30px;
     flex-direction: column;
     color: #757575;
     font-size: 16px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
