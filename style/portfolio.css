@@ -14,10 +14,12 @@ nav {
     font-size: 45px;
     font-weight: 800;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -26,59 +28,71 @@ nav {
     font-weight: 700;
     padding: 14px 30px;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:#474747;
+    color: #474747;
 }
-.header{
+
+.header {
     background: #effaea;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 30px 150px;
     padding-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner .profile-picture{
+
+.banner .profile-picture {
     width: 500px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-style: normal;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-des{
+
+.banner-des {
     color: #757575;
     font-size: 18px;
 }
-.section-title{
-    color: var( #181818);
+
+.section-title {
+    color: var(#181818);
     text-align: center;
     font-size: 35px;
 }
-.section-des{
+
+.section-des {
     border-radius: 10px;
     background: #FFF8F3;
     text-align: center;
@@ -86,34 +100,40 @@ nav a{
     width: 93%;
     margin: auto;
 }
-.about{
+
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #fbf7e6;
-    margin-top:130px;
+    margin-top: 130px;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: auto;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin-top: 15px;
 }
-.section-des-what{
+
+.section-des-what {
     width: 72%;
     text-align: center;
     margin: auto;
     margin-top: -20px;
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     margin-top: 30px;
     align-items: center;
 }
-.skill{
+
+.skill {
     border: 1px solid black;
     border: none;
     margin-right: 24px;
@@ -122,66 +142,82 @@ main{
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-main{
+
+main {
     margin-top: 130;
 }
-.heading-summary{
-    color:#181818;
+
+.heading-summary {
+    color: #181818;
     font-size: 35px;
     text-align: center;
     margin-top: 80px;
 }
-.summary-container{
+
+.summary-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.sub-heading{
+
+.sub-heading {
     color: #474747;
     font-size: 30px;
 }
-.my-h3{
+
+.my-h3 {
     color: #474747;
-    font-size:25px;
+    font-size: 25px;
 }
-.my-p{
-    color:#757575;
+
+.my-p {
+    color: #757575;
     font-size: 20px;
     margin-top: -20px;
 }
-.my-ps{
+
+.my-ps {
     display: flex;
     width: 511px;
     flex-direction: column;
     color: #757575;
     font-size: 16px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
-footer{
+
+footer {
     display: flex;
-    background-color:#FFF8F3;
-    padding: 130px 200px;margin-top: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
     gap: 100px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
-.contact input[type="text"],input[type="email"] , textarea{
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
     display: block;
     margin-bottom: 24px;
     padding: 18px 35px;
-    color:#757575;
+    color: #757575;
     border-radius: 5px;
     background: #FFF;
     border: 0;
     width: 100%;
 }
-.social-links a{
+
+.social-links a {
     margin-right: 25px;
 }
-.section-title-footer{
+
+.section-title-footer {
     font-size: 35px;
 }
